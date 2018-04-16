@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         // 2. Construir Adapter
         // 3. Definir layout
 
-        CarMock carMock = new CarMock();
+        CarMock carMock = new CarMock(this);
         List<Car> carList = new ArrayList<>();
         carList.addAll(carMock.getList());
 
